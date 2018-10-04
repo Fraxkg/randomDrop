@@ -15,7 +15,7 @@ for(intentos=1;intentos<=3;intentos++){
 		victoria=true;
 	}else{
 		document.write("<br>");
-		document.write(" Lo siento, intento: "+intentos+" fallido ");
+		alert(" Lo siento, intento: "+intentos+" fallido ");
 	}
 }
 
