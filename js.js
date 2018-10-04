@@ -21,9 +21,11 @@ for(intentos=1;intentos<=3;intentos++){
 
 document.write("<br>");
 if(victoria){
-	document.write(" Gracias por participar :^) ");
+	
+	document.write("<font color=\"green\">["+" Gracias por participar :^) "+"]</font>");
 }else{
-	document.write(" Buena suerte para la próxima :^(   ");
+	
+	document.write("<font color=\"red\">["+" Buena suerte para la próxima :^(   "+"]</font>")
 	document.write(" La respuesta era: " +rng);
 }
 //prueba
